@@ -40,7 +40,7 @@
 * Modules/library are a collection of python scripts which can be reusable for writting complex program.
 * We can import a module using import keyword.
 * If it is not available it will give import error.
-* * dir() method tells what the attribute provides.
+* dir() method tells what the attribute provides.
 * What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
 ```
 >>> import this
