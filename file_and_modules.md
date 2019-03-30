@@ -1,13 +1,13 @@
-## File operations
-* file is a storage format where we store information on the computer.
-* It might text files like music, video, code and other stuff or binary
-  files which are only understood able by computer.
+## Filesystem Operations
+* A file is stored as a resource on the computer on top of a [filesystem](https://www.tldp.org/LDP/sag/html/filesystems.html), which is a storage format.
+* Files can be text, music or media which can be understood by any human user.
+* And some files are binaries which can only be understood by computer.
 * By using Python, we can easily manipulate these files.
-* let's create a file names.txt and add few names.
-* mode of files based on purpose
-* r - read the content of file, setted default
-* w - write the content to file, if file is not there it will create it.
-* a - append contents to the file.
+* Let's create a file - `names.txt` and add few names in it.
+* list of different modes for opening files:
+* `r` - read the content of file, setted default
+* `w` - write the content to file, if file is not there it will create it.
+* `a` - append contents to the file.
 ```
 >>> names_list = ['chandan', 'nikhil']
 >>> data = open('names.txt', 'w')
@@ -36,12 +36,13 @@
 ```
 
 ## Python Modules
-* Python provides a rich support of modules.
-* Modules/library are a collection of python scripts which can be reusable for writting complex program.
-* We can import a module using import keyword.
+* Python provides a rich support for python modules.
+* Modules/libraries (also known as python packages) are a collection of python scripts which can be reusable for writing complex programs.
+* We can import a module using `import` keyword.
 * If it is not available it will give import error.
 * dir() method tells what the attribute provides.
 * What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
+
 ```
 >>> import this
 The Zen of Python, by Tim Peters
@@ -86,12 +87,12 @@ ModuleNotFoundError: No module named 'foo'
 * A python script foo.py can be called as a module by using foo.py
 
 ## Exceptions
-While writting programs, Errors are prone to occur. But It can be handled via
-exception.
+While writing programs, errors are prone to occur. But they can be handled with
+exceptions.
 For example, we were trying to import a module but it was not there.
-we can by pass this error by using try and except.
-With try keyword, we do something, then in except clause once this
-exception comes we do something else
+We can by pass this error by using try and except.
+With `try` keyword, we write something, then in `except` clause once an
+exception comes, we handle it or do something else. And using `finally` we can move ahead and do something else.
 ```
 >>> import sys
 >>> def linux_interaction():
@@ -110,10 +111,10 @@ Executing the else clause.
 >>> 
 ```
 
-## Writting simple CIL script
+## Writting a simple CIL script
 * We write scripts in order to reuse it multiple times.
 * In python you see '__' double underscore aka dunder.
-* create a script greetings.py
+* Create a script greetings.py
 ```
 [raukadah@ironman python-workshop]$ python3 fun.py 
 Welcome FOSS MEET
@@ -133,6 +134,7 @@ if __name__ == "__main__":
 #!/usr/bin/python3
 
 import greetings
+
 greetings.greeting('FOSS MEET')
 [raukadah@ironman python-workshop]$ python3 fun.py 
 Welcome FOSS MEET
