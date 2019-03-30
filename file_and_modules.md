@@ -44,9 +44,6 @@
 * What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
 ```
  # python
-Python 3.6.8 (default, Jan 31 2019, 09:38:34) 
-[GCC 8.2.1 20181215 (Red Hat 8.2.1-6)] on linux
-Type "help", "copyright", "credits" or "license" for more information.
 >>> import this
 The Zen of Python, by Tim Peters
 
