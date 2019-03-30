@@ -42,7 +42,6 @@
 * If it is not available it will give import error.
 * dir() method tells what the attribute provides.
 * What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
-
 ```
 >>> import this
 The Zen of Python, by Tim Peters
