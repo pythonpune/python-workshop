@@ -37,7 +37,7 @@
 
 ## Python Modules
 * Python provides a rich support for python modules.
-* Modules/libraries are a collection of python scripts which can be reusable for writing complex programs.
+* Modules/libraries (also known as python packages) are a collection of python scripts which can be reusable for writing complex programs.
 * We can import a module using `import` keyword.
 * If it is not available it will give import error.
 * dir() method tells what the attribute provides.
@@ -109,7 +109,6 @@ if __name__ == "__main__":
 #!/usr/bin/python3
 
 import greetings
-import this
 
 greetings.greeting('FOSS MEET')
 [raukadah@ironman python-workshop]$ python3 fun.py 
