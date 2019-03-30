@@ -1,12 +1,13 @@
-## Filesystem operations
-* A file is stored as a resource on the computer on top of a [filesystem](https://www.tldp.org/LDP/sag/html/filesystems.html) which is a storage format.
-* Files can be text , music or media or any binaries which can only be understood by computer.
+## Filesystem Operations
+* A file is stored as a resource on the computer on top of a [filesystem](https://www.tldp.org/LDP/sag/html/filesystems.html), which is a storage format.
+* Files can be text, music or media which can be understood
+any binaries which can only be understood by computer.
 * By using Python, we can easily manipulate these files.
-* Let's create a file - names.txt and add few names in it.
+* Let's create a file - `names.txt` and add few names in it.
 * list of different modes for opening files:
-* r - read the content of file, setted default
-* w - write the content to file, if file is not there it will create it.
-* a - append contents to the file.
+* `r` - read the content of file, setted default
+* `w` - write the content to file, if file is not there it will create it.
+* `a` - append contents to the file.
 ```
 >>> names_list = ['chandan', 'nikhil']
 >>> data = open('names.txt', 'w')
@@ -35,7 +36,7 @@
 ```
 
 ## Python Modules
-* Python provides a rich support for modules.
+* Python provides a rich support for python modules.
 * Modules/libraries are a collection of python scripts which can be reusable for writing complex programs.
 * We can import a module using `import` keyword.
 * If it is not available it will give import error.
