@@ -1,8 +1,8 @@
 # The Beginning
 
-## Using Python interpreter
+## [Using Python interpreter](https://docs.python.org/3/tutorial/interpreter.html)
 
-* Type 'python3' command in terminal to open python interpreter
+* Type `python3` command in terminal to open a Python Interpreter.
 
 ```
 [raukadah@ironman python-workshop]$ python3
@@ -11,18 +11,19 @@ Python 3.7.3 (default, Mar 27 2019, 13:36:35)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
- * *>>>* knowns as python prompt
- * Use CTRL + D to exit from the terminal
+ * `>>>` is known as python prompt.
+ * Use `CTRL + d` to exit from the terminal or `exit()` command.
  * After quitting, all programs will get destroyed.
  
 ## My first program
-* *print()* method is used to display output to the use
+* `print()` method is used to display output like `printf` in *C language*.
+
 ```
 >>> print('Welcome to FOSSMEET, PUNE')
 Welcome to FOSSMEET, PUNE
 ```
 
-* We can also print in multiple lines by using *\n*.
+* We can also print in multiple lines by using `\n`.
 ```
 >>> print('Welcome to FOSSMEET, PUNE\n Let\'s Learn Python 3')
 Welcome to FOSSMEET, PUNE
@@ -30,8 +31,8 @@ Welcome to FOSSMEET, PUNE
 ```
 We can *\* to escape any characters.
 
-## Use *#* to comment the code
-Anything written afer *#* will be ignored.
+## [Use *#* to comment the code](https://www.python.org/dev/peps/pep-0008/#comments)
+Anything written after `#` will be ignored.
 ```
 >>> # print('This is a comment')
 ... 
@@ -39,16 +40,18 @@ Anything written afer *#* will be ignored.
 ``` 
 
 ## Variables
-* Variables in Python allows us to store information and give it a label
-  we can use to retrieve that information later.
+* Variables in Python allows us to store information and give it a label.
+  We can use to retrieve that information later.
 
-* We can store numbers, strings (a squenece of characters) and complex data
-  types
+* We can store numbers, strings (*a sequence of characters*) and complex data
+  types.
+
 * We assign values to variables by putting the value to the right of an equal
   sign.
-* Since Python is a dynamic language so we donot need to define the data type of
-  a variable.
-* Let's define a varibale.
+
+* Python is a [General purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language).
+
+* Let's define a variable.
 ```
 >>> a = 12 # *a* is a variable holding the value 2
 >>> b = 'Hello' # *b* is another variable holding string
@@ -58,9 +61,9 @@ Anything written afer *#* will be ignored.
 'Hello'
 >>> 
 ```
-* variable can be called any times based on needs.
+* Variable can be called any times based on needs.
 
-## String representation
+## [String representation](https://docs.python.org/3/tutorial/introduction.html#strings)
 * We can represent string using single, double or triple quotes.
 ```
 >>> a = 'Hello World'
@@ -79,18 +82,18 @@ Anything written afer *#* will be ignored.
 
 It is a multi line string
 Have fun, when we print it
-
 >>> 
 ```
-* We can *print* method to display the output. 
+* We can `print` method to display the output.
 
-## Whitespaces and Identation
-* We gives whitespaces between operators to make code more readable.
+## [Whitespaces and Indentation](https://docs.python.org/2.0/ref/indentation.html)
+* We give whitespaces between operators to make the code more readable.
 * Space at the beginning of a line is known as indentation.
-* On using wrong indentation, it will give indentation error
+* On using the wrong indentation, it will give indentation error
 * Let's see
 ```
 >>> a = 'foobar'
+
 >>>  a = 'foobar'
   File "<stdin>", line 1
     a = 'foobar'
@@ -100,7 +103,7 @@ IndentationError: unexpected indent
 ```
 
 ## Variable Naming
-* Name of the variable should be meaningfull.
+* Name of the variable should be meaningful.
 * We generally use Number, Characters and underscore for naming
   variables.
 * On using special characters it will through error.
@@ -114,7 +117,7 @@ IndentationError: unexpected indent
     ^
 SyntaxError: invalid syntax
 ```
-* Python provides a list of keywords which cannot be used a variable name.
+* Python provides a list of `keywords` which can't be used a variable name.
 
 ## Multiple assignment in a single line
 We can even assign multiple values in a single line.
@@ -148,13 +151,13 @@ We can even assign multiple values in a single line.
 >>> (10 * 20 / 2 -100 ) + 50 # We can call it as a expression
 50.0
 ```
-* *+, -, *, /* are used for addition, substraction, multiplication and
+* `+`, `-`, `*`, `/` are used for addition, substraction, multiplication and
   division.
-* '**' for calculating powers
-* '/' returns floating point numbers
-* '//' is used to discard fractional part.
-* We can also try BODMAS rule in a expression
-* These are known as arithmetic operators
+* `**` for calculating powers.
+* `/` returns floating point numbers.
+* `//` is used to discard fractional part.
+* We can also try `BODMAS` rule in an expression.
+* These are known as arithmetic operators.
 
 ## Relational Operators
 ```
@@ -172,10 +175,10 @@ True
 True
 ```
 
-## Logical operator
-* *and* and *or* are logical operator
-* x and y returns False if x is False else it returns evaluation of y.
-  If x is True, it returns True.
+## Logical Operator
+* `and` and `or` are a logical operator.
+* `x` and `y` returns `False` if `x` is `False` else it returns evaluation of `y`.
+  If `x` is `True`, it returns `True`.
 ```
 >>> 1 and 4
 4
@@ -189,8 +192,8 @@ True
 0
 ```
 
-## Shorthand operator
-* *x op = expression* is the syntax for shorthand operators.
+## Shorthand Operator
+* `x operator = expression` is the syntax for shorthand operators.
 ```
 >>> a = 15
 >>> b += 30
@@ -199,7 +202,7 @@ True
 ```
 
 ## Taking input from keyword
-* *input()* method is used to take input from keyboard
+* `input()` method is used to take `input` from `keyboard`.
  ```
  >>> input("Enter your name: ")
 Enter your name: Chandan Kumar
@@ -210,9 +213,9 @@ Enter your name: raukadah
 'raukadah'
 >>> 
  ```
-## type conversion
-* we can use *type()* to check the data type of a variable
-* we can also convert it
+## Type conversion
+* We can use `type()` to check the data type of a variable.
+* We can also convert it.
 ```
 >>> a = 10
 >>> c = 1.5
@@ -256,30 +259,29 @@ TypeError: cannot concatenate 'str' and 'int' objects
 ```
 
 ## Writting a program in file
-* All programs are written with *<filename>.py*
-* Open a file named *first_program.py* and write the following
-  code.
+* All programs are written with `<filename>.py`.
+* Create a file named `first_program.py` and write the following code.
 ```
 #!/usr/bin/env python3
 
 myname = input("Enter your name: ")
 print('Welcome to Python3 Fun Class %s' % myname)
 ```
-* Make the program executable
+* Make the program executable.
 ```
 $ chomd +x first_program.py
 ```
-* Then run it
+* Then run it.
 ```
 $./first_program.py
 ```
-* On the first line you can #!, what we call it sha-bang. 
-  The sha-bang indicates that the Python interpreter should run this code.
+* On the first line you can `#!`, what we call it [sha-bang](https://en.wikipedia.org/wiki/Shebang_(Unix). 
+  The `sha-bang` indicates that the Python interpreter should run this code.
 
-## Decision Making using if,else
-While working on programs, we always encounted with making decisions.
-Based on condition, we need to perform tasks or do other tasks.
-We can *if* keyword to that.
+## Decision Making using if, else
+While working on programs, we always encounter with making decisions.
+Based on the condition, we need to perform tasks or do other tasks.
+We can use `if` keyword to that.
 ```
 if expression:
     do
@@ -310,10 +312,10 @@ if a:
 ```
 
 ## Functions
-* When we have to do a certain set of operatin multiple times and reuse it
-  with in codebase then we need to define a function
-* *def* keyword is used to define a function
-* syntex
+* When we have to do a certain set of operation multiple times and reuse it
+  with in codebase then we need to define a function.
+* `def` keyword is used to define a function.
+* Syntax:
 ```
 def function_name(function_arguments):
     do some stuff
@@ -321,7 +323,7 @@ def function_name(function_arguments):
 ```
 * Here function_arguments are not necessary.
 * function arguments can be passed in any fashion
-* if return is not define, it will not return anything.
+* If return is not define, it will not return anything (None).
 ```
 >>> def sum(a, b):
 ...     print(a + b)
@@ -356,13 +358,13 @@ None
 ```
 
 ### For loop
-In python loop works over sequence.
-Sequence might be a list, string, tuples or dictionary.
+In Python loop works over a `Iterator` object.
+might be a `list`, `string`, `tuples`, `dictionary`, `set` etc.
 ```
 for i in sequence: 
     do some stuff
 ```
-Let's print the letter of a word.
+Let's `print` the letter of a word.
 ```
 >>> word = "fossmeet"
 >>> for i in word:
@@ -372,11 +374,11 @@ f*o*s*s*m*e*e*t*
 ```
 
 ### Looping over integers
-* Use range() function
-* range() can be used in three ways
-* range(n): will contain numbers form 0 through n-1
-* range(x, y): will start from x and end at y - 1
-* range(x, y, z): will start at x and continue as x + z, x + 2z until x + kz is less than y
+* Use `range()` function.
+* `range()` can be used in three ways.
+* `range(n)`: will contain numbers form `0` through `n-1`
+* `range(x, y)`: will start from `x` and end at `y-1`
+* `range(x, y, z)`: will start at `x` and continue as `x+z`, `x+2z` until `x+kz` is less than `y`.
 ```
 >>> range(10)
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -400,5 +402,3 @@ f*o*s*s*m*e*e*t*
 8 square is 64
 9 square is 81
 ```
-
-## Time to learn some more stuff
