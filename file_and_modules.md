@@ -43,7 +43,6 @@
 * dir() method tells what these modules provides.
 * What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
 ```
- # python
 >>> import this
 The Zen of Python, by Tim Peters
 
