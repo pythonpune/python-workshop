@@ -10,8 +10,8 @@ Source code url of Python: https://github.com/python/cpython
 
 Github also provides a nice feature to show the contributors of any project.
 
-Let's write a program to show 
-* the contributors of cpython project with their names
+Let's write a program to show
+* Top 10 contributors of cpython project with their names
 * Numbers of commits made by the contributors
 * Find list of contributors having same number of commits
 
@@ -32,4 +32,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 If not then follow this link to install Python:
 https://www.python.org/downloads/
 
-### Follow these next steps to learn Python and solve it
+### Follow these next steps to learn Python and then solve it
+
+* [Begin your Python Journey](beginning.md)
+* [Have fun with Python Data Structures](datat_structures.md)
+* [Interact with files and Modules](file_and_modules.md)
