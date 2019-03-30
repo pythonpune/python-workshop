@@ -3,8 +3,9 @@
 A hands-on tutorial intended for learning Python3 by solving problems.
 
 ## Problem Statement:
-[Python](https://www.python.org/) is an open source programming language. It's code and all 
-development happens on GitHub.
+[Python](https://www.python.org/) is an open source programming language. In 1991, [Guido van 
+Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) made Python. It's code is open source and 
+all development happens on [GitHub](https://github.com/python/cpython).
 
 Source code URL of Python: https://github.com/python/cpython
 
@@ -35,5 +36,5 @@ https://www.python.org/downloads/
 ### Follow these next steps to learn Python and then solve it
 
 * [Begin your Python Journey](beginning.md)
-* [Have fun with Python Data Structures](datat_structures.md)
+* [Have fun with Python Data Structures](data_structures.md)
 * [Interact with files and Modules](file_and_modules.md)
