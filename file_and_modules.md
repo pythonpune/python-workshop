@@ -66,8 +66,8 @@ While writing programs, errors are prone to occur. But they can be handled with
 exceptions.
 For example, we were trying to import a module but it was not there.
 We can by pass this error by using try and except.
-With try keyword, we write something, then in except clause once an
-exception comes, we handle it or do something else
+With `try` keyword, we write something, then in `except` clause once an
+exception comes, we handle it or do something else. And using `finally` we can move ahead and do something else.
 ```
 >>> import sys
 >>> def linux_interaction():
