@@ -1,7 +1,7 @@
 ## Filesystem Operations
 * A file is stored as a resource on the computer on top of a [filesystem](https://www.tldp.org/LDP/sag/html/filesystems.html), which is a storage format.
-* Files can be text, music or media which can be understood
-any binaries which can only be understood by computer.
+* Files can be text, music or media which can be understood by any human user.
+* And some files are binaries which can only be understood by computer.
 * By using Python, we can easily manipulate these files.
 * Let's create a file - `names.txt` and add few names in it.
 * list of different modes for opening files:
@@ -109,6 +109,8 @@ if __name__ == "__main__":
 #!/usr/bin/python3
 
 import greetings
+import this
+
 greetings.greeting('FOSS MEET')
 [raukadah@ironman python-workshop]$ python3 fun.py 
 Welcome FOSS MEET
