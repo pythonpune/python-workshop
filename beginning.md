@@ -177,7 +177,7 @@ True
 
 ## Logical Operator
 * `and` and `or` are a logical operator.
-* `x` and `y` returns `False` if `x` is `False` else it returns evaluation of `y`.
+* `x and y` returns `False` if `x` is `False` else it returns evaluation of `y`.
   If `x` is `True`, it returns `True`.
 ```
 >>> 1 and 4
@@ -196,7 +196,8 @@ True
 * `x operator = expression` is the syntax for shorthand operators.
 ```
 >>> a = 15
->>> b += 30
+>>> b = 2
+>>> b += 30   # Same as b = b + 30
 >>> b
 32
 ```
@@ -241,9 +242,9 @@ ValueError: invalid literal for int() with base 10: 'hello'
 '1.5'
 ```
 
-## String Cancatanation
+## String Concatenation
 * Same type of string literals can be joined
-* if the variable is not same type then convert it by using *+*
+* if the variable is not same type then convert it by using `+`
 ```
 >>> a = 'hello'
 >>> b = 'COEP'
@@ -258,8 +259,8 @@ TypeError: cannot concatenate 'str' and 'int' objects
 'hello10'
 ```
 
-## Writting a program in file
-* All programs are written with `<filename>.py`.
+## Writing a program in file
+* All Python programs are written with `.py` extension.
 * Create a file named `first_program.py` and write the following code.
 ```
 #!/usr/bin/env python3
@@ -275,7 +276,7 @@ $ chomd +x first_program.py
 ```
 $./first_program.py
 ```
-* On the first line you can `#!`, what we call it [sha-bang](https://en.wikipedia.org/wiki/Shebang_(Unix). 
+* On the first line you can `#!`, what we call it [sha-bang](https://en.wikipedia.org/wiki/Shebang_\(Unix\)).
   The `sha-bang` indicates that the Python interpreter should run this code.
 
 ## Decision Making using if, else
@@ -294,7 +295,7 @@ elif expression:
 else:
     do something else
 ```
-It works only when expression is true otherwise it goes to next line.
+It works only when expression is `True` otherwise it goes to next line.
 ```
 >>> a = 100
 >>> if a % 2 == 0:
@@ -307,8 +308,10 @@ Even Number
 ```
 ### Truth value testing
 ```
-if a:
-    pass
+>>> a = True
+>>> if a:
+...     print("a is True")
+a is True
 ```
 
 ## Functions
@@ -321,28 +324,28 @@ def function_name(function_arguments):
     do some stuff
     return something
 ```
-* Here function_arguments are not necessary.
+* Here function_arguments are not mandatory.
 * function arguments can be passed in any fashion
-* If return is not define, it will not return anything (None).
+* If return is not define, it will `None`.
 ```
 >>> def sum(a, b):
 ...     print(a + b)
 ... 
 >>> sum(2,3)
 5
->>> sum(a=2,b=3)
+>>> sum(a=2, b=3)
 5
->>> x = sum(1, 2)
+>>> return_value = sum(1, 2)
 3
->>> print(x)
+>>> print(return_value)
 None
 >>> def sum(a, b):
 ...     return a + b
 ... 
->>> x = sum(1, 2)
->>> x
+>>> result = sum(1, 2)
+>>> result
 3
->>> print(x)
+>>> print(result)
 3
 ```
 
@@ -358,7 +361,7 @@ None
 ```
 
 ### For loop
-In Python loop works over a `Iterator` object.
+In Python loop works over a `Iterator` object,
 might be a `list`, `string`, `tuples`, `dictionary`, `set` etc.
 ```
 for i in sequence: 
