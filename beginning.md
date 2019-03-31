@@ -29,7 +29,7 @@ Welcome to FOSSMEET, PUNE
 Welcome to FOSSMEET, PUNE
  Let's Learn Python 3
 ```
-We can *\* to escape any characters.
+We can `\` to escape any characters.
 
 ## [Use *#* to comment the code](https://www.python.org/dev/peps/pep-0008/#comments)
 Anything written after `#` will be ignored.
