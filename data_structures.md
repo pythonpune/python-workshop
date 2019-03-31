@@ -2,7 +2,7 @@
 
 ## String
 * String is a sequence of characters.
-* We have seen the string representation in previous chaptor.
+* We have seen the string representation in previous chapter.
 * Python provides lots of built in method associated with it.
 
 ### Side by side string literals
@@ -73,7 +73,7 @@ True
 >>> 
 ```
 
-### Strip some characters from a strin
+### Strip some characters from a string
 ```
 >>> a = "abc\n"
 >>> a.strip() # It will remove new line 
@@ -98,8 +98,8 @@ True
 20
 ```
 ### String Indexing
-* First character of a string has index 0.
-* Negative indices start form -1, when counted from right.
+* First character of a string has index `0`.
+* Negative indices start form `-1`, when counted from right.
 ```
 >>> word = "Welcome to FOSS MEET"
 >>> word[0]
@@ -113,7 +113,7 @@ True
 ```
 
 ### String Slicing
-* string[x:y] -> returns the string starting from index x to y-1.
+* `string[x:y]` returns the string starting from index `x` to `y-1`.
 ```
 >>> word[2:8]
 'lcome '
@@ -132,7 +132,7 @@ TypeError: 'str' object does not support item assignment
 
 ## List
 * Comma separated values between square brackets
-* List can be sliced, indexed and cancatenated
+* List can be sliced, indexed and concatenated
 * Lists are mutable it means we can append and remove items from a list.
 ```
 >>> a = [1,2,3,4,5,6]
@@ -193,8 +193,8 @@ which follow it.
 ```
 
 ## Tuples
-* Items seperated by comma in a closed bracket.
-* These are immutables it means we cannot append or remove date from it.
+* Items separated by comma in a closed bracket.
+* These are immutable, it means we cannot append or remove data from it.
 ```
 >>> a = (1,2,3,'hello')
 >>> a
@@ -227,14 +227,14 @@ TypeError: 'tuple' object doesn't support item deletion
 ```
 
 ## Set
-A list of items with no duplicates in curlie braces.
+A list of items with no duplicates in curly braces.
 ```
 >>> a = 'axbecjnn2226'
 >>> set(a)
 {'n', 'e', 'a', '6', 'x', 'b', 'j', '2', 'c'}
 >>> 
 ```
-* Define another set b and try out a -b , a | b, a & b, a ^ b
+* Define another set `b` and try out `a - b`, `a | b`, `a & b`, `a ^ b`
 * We can also add and remove values from set
 ```
 >>> c
@@ -247,12 +247,11 @@ A list of items with no duplicates in curlie braces.
 ```
 
 ## Dictionaries
-* Unordered set of key: value pairs under {} braces where keys are unique
+* Unordered set of key: value pairs under `{}` braces.
 * Keys are unique in nature.
-* Dictionaries are mutable buts keys are immutable
-* By using particular Keys, we can updat the value.
-* Values can be numbers, string, list, or tuples.
-* We can access valuing dictionary.
+* Dictionaries are mutable but keys must be of immutable type.
+* By using particular key, we can access or update the value.
+* Values can be of any data type.
 ```
 >>> mydict = {'number': 1, 'letter': 'foobar', 'mytuple':(1,2,3), 'foobar': [1,2,3,4]}
 >>> mydict
@@ -278,10 +277,10 @@ True
 >>> len(mydict)
 4
 ```
-We can always run a loop over list, string, tuples and dict:
+We can always run a loop over list, string, tuple and dict:
 
 ### Fun time
-* Create a dictionary which has keys like numbers, strings, tuples, list, set and dict and put some value.
+* Create a dictionary which has keys like numbers, strings, tuples, list, set and dict and put some value.  
   Run a for loop and print their data types and their content.
 
 * Checkout lambda and map function
