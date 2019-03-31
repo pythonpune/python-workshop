@@ -116,6 +116,3 @@ Welcome FOSS MEET
 the value of __name__ is greetings
 [raukadah@ironman python-workshop]$
 ```
-
-## Installing a new python module
-$ python3 -m pip install requests

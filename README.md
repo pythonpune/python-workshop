@@ -38,3 +38,11 @@ https://www.python.org/downloads/
 * [Begin your Python Journey](beginning.md)
 * [Have fun with Python Data Structures](data_structures.md)
 * [Interact with files and Modules](file_and_modules.md)
+* [Final Project](final_project.md)
+
+### What nexts from here:
+* Complete [Python for you and me book](https://pymbook.readthedocs.io/en/latest/)
+* Complete [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+* Looking for solving problems/projects check [Pybites](https://pybit.es/) 
+
+Have fun and Happy Hacking.
