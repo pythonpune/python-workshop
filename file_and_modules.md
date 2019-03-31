@@ -89,11 +89,8 @@ Executing the else clause.
 ## Writting a simple CIL script
 * We write scripts in order to reuse it multiple times.
 * In python you see '__' double underscore aka dunder.
-* Create a script greetings.py
+* Create a script greetings.py and fun.py
 ```
-[raukadah@ironman python-workshop]$ python3 fun.py 
-Welcome FOSS MEET
-the value of __name__ is greetings
 [raukadah@ironman python-workshop]$ cat greetings.py 
 #!/usr/bin/python3
 import sys
@@ -105,14 +102,21 @@ def greeting(name):
 if __name__ == "__main__":
     name = "Chandan Kumar"
     greeting(name)
+
+[raukadah@ironman python-workshop]$ python3 greeting.py 
+Welcome Chandan Kumar
+the value of __name__ is __main__
+```
+```
 [raukadah@ironman python-workshop]$ cat fun.py 
 #!/usr/bin/python3
 
 import greetings
 
 greetings.greeting('FOSS MEET')
+
 [raukadah@ironman python-workshop]$ python3 fun.py 
 Welcome FOSS MEET
 the value of __name__ is greetings
-[raukadah@ironman python-workshop]$
 ```
+* Observe meaning of `__name__` and `__main__`.
