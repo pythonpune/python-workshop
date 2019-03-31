@@ -41,7 +41,7 @@
 * We can import a module using `import` keyword.
 * If it is not available it will give import error.
 * dir() method tells what the attribute provides.
-* What's [The Zen of Python] (https://www.python.org/dev/peps/pep-0020/) ? 
+* What's The [Zen](https://www.python.org/dev/peps/pep-0020/) of Python ? 
 ```
 >>> import this
 The Zen of Python, by Tim Peters
